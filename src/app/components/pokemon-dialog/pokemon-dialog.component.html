@@ -1,0 +1,25 @@
+<div class="dialog-wrapper">
+    <h2 mat-dialog-title>#{{pokemon.id}} {{pokemon.name}}</h2>
+
+    <mat-dialog-content>
+        <img [src]="pokemon.sprites.front_default" alt="Pokemon">
+        <p>
+            <b>Type:</b> {{pokemon.types[0].type.name}}
+            <br/>
+            <b>Health:</b> {{pokemon.stats[0].base_stat}}
+            <br/>
+            <b>Attack:</b> {{pokemon.stats[1].base_stat}}
+            <br/>
+            <b>Height:</b> {{pokemon.height}}ft
+            <br/>
+            <b>Weight:</b> {{pokemon.weight}}lbs
+        </p>
+    </mat-dialog-content>
+
+    <!--
+    <mat-dialog-actions>
+        <button class="mat-raised-button">Close</button>
+        <button class="mat-raised-button mat-primary">Save</button>
+    </mat-dialog-actions>
+    -->
+</div>

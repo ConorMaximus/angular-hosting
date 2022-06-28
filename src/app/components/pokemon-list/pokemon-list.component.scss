@@ -1,0 +1,117 @@
+@import '../../styles/abstracts.scss';
+
+/* Pokemon Grid */
+.pokemon-grid {
+    display: grid;
+    grid-gap: 16px;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+  }
+  
+  .pokemon-grid .box h3{
+    text-transform: capitalize;
+  }
+  
+  .pokemon-grid .box {
+    text-align: center;
+    display: grid;
+    width: 100%;
+    height: 160px;
+  }
+  
+  .pokemon-grid .box img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .pagination-controls {    
+    text-align: center;
+    padding: 20px;
+  }
+
+  pagination-controls {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .grass {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $grass-type-color;
+    border: $border-thickness solid $grass-type-color;
+    border-radius: $border-radius;
+  }
+
+  .fire {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $fire-type-color;
+    border: $border-thickness solid $fire-type-color;
+    border-radius: $border-radius;
+  }
+
+  .water {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $water-type-color;
+    border: $border-thickness solid $water-type-color;
+    border-radius: $border-radius;
+  }
+
+  .poison {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $poison-type-color;
+    border: $border-thickness solid $poison-type-color;
+    border-radius: $border-radius;
+  }
+
+  .bug {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $bug-type-color;
+    border: $border-thickness solid $bug-type-color;
+    border-radius: $border-radius;
+  }
+
+  .normal {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $normal-type-color;
+    border: $border-thickness solid $normal-type-color;
+    border-radius: $border-radius;
+  }
+
+  .fairy {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $fairy-type-color;
+    border: $border-thickness solid $fairy-type-color;
+    border-radius: $border-radius;
+  }
+
+  .ground {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $ground-type-color;
+    border: $border-thickness solid $ground-type-color;
+    border-radius: $border-radius;
+  }
+
+  .fighting {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $fighting-type-color;
+    border: $border-thickness solid $fighting-type-color;
+    border-radius: $border-radius;
+  }
+
+  .psychic {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $psychic-type-color;
+    border: $border-thickness solid $psychic-type-color;
+    border-radius: $border-radius;
+  }
+
+  .rock {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $rock-type-color;
+    border: $border-thickness solid $rock-type-color;
+    border-radius: $border-radius;
+  }
+
+  .electric {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $electric-type-color;
+    border: $border-thickness solid $electric-type-color;
+    border-radius: $border-radius;
+  }
+
+  .ghost {
+    box-shadow: $box-shadow-x-offset $box-shadow-y-offset $box-shadow-blur $ghost-type-color;
+    border: $border-thickness solid $ghost-type-color;
+    border-radius: $border-radius;
+  }
+  
